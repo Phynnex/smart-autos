@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import AppBar from './components/Appbar';
 import ChooseCategoryCard from './components/ChooseCategoryCard';
 import PopularCarBrands from './components/PopularCarBrands';
+import BestDeals from './components/BestDeals';
 import withAuthentication from '../utils/withAuthentication';
 import useCustomHook from '../hooks/useCustomHook';
 
@@ -25,6 +26,7 @@ const Home = () => {
         <section>
           <PopularCarBrands />
         </section>
+        <BestDeals />
         <section className={styles.container}>
           <h1 className="text-center font-bold text-black text-6xl">{name}</h1>
         </section>
