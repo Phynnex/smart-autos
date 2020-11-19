@@ -6,24 +6,24 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: "flex",
-    alignSelf: "flex-end",
+    display: 'flex',
+    alignSelf: 'flex-end',
     marginRight: theme.spacing(4),
     marginTop: theme.spacing(6),
-    "& > *": {
+    '& > *': {
       margin: theme.spacing(2),
       width: theme.spacing(36),
-      height: theme.spacing(36)
-    }
+      height: theme.spacing(36),
+    },
   },
-  instruction: { textAlign: "center", marginTop: 32, fontWeight: "Bold" },
+  instruction: { textAlign: 'center', marginTop: 32, fontWeight: 'Bold' },
   btn: {
     width: 252,
     height: 56,
     marginTop: 16,
-    marginLeft: 16
+    marginLeft: 16,
   },
-  action: { textAlign: "center", marginTop: 32 }
+  action: { textAlign: 'center', marginTop: 32 },
 }));
 export default function Variants() {
   const classes = useStyles();

@@ -27,9 +27,9 @@ const Home = () => {
           <PopularCarBrands />
         </section>
         <BestDeals />
-        <section className={styles.container}>
+        {/* <section className={styles.container}>
           <h1 className="text-center font-bold text-black text-6xl">{name}</h1>
-        </section>
+        </section> */}
       </main>
     </>
   );
