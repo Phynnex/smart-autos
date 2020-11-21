@@ -3,7 +3,7 @@ import Appbar from './components/Appbar';
 import ChooseSmartAutos from './ChooseSmartAutos';
 import ListingProcess from './ListingProcess';
 import Testimonials from './Testimonials';
-
+import Footer from './Footer';
 
 const AboutPage = () => {
   return (
@@ -26,6 +26,7 @@ const AboutPage = () => {
           <ListingProcess />
         </section>
         <Testimonials />
+        <Footer />
       </main>
     </>
   );
