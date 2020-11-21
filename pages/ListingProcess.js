@@ -2,46 +2,43 @@ const ListingProcess = () => {
   return (
     <>
       <div>
-        <h1 className="flex justify-center text-3xl font-extrabold pt-10">How Listing Works</h1>
+        <h1 className="flex justify-center text-3xl font-extrabold pt-16">How Listing Works</h1>
         <p className="flex justify-center text-lg">
           Become a dealer and start selling your cars with Smart Auto in just 3 simple steps.
         </p>
       </div>
-      <section className="flex justify-between pr-16 pl-16">
+      <section className="flex justify-around mt-10 pb-16">
         <div>
-          <img
-            src="https://tse1.mm.bing.net/th?id=OIP.gSXio3jtjyxqPpyh7XnPewHaE7&pid=Api&P=0&w=243&h=163"
-            alt="Lexus"
-          />
-          <div className>
-            <h3>Sign up for Free</h3>
-            <p>
+          <div className="flex justify-center">
+            <img src="https://i.imgur.com/zDE4wFQ.png" alt="Human sitting" />
+          </div>
+          <div>
+            <h3 className="text-center text-xl font-semibold pt-10 pb-2">Sign up for Free</h3>
+            <p className="text-center pl-10 pr-10">
               Once a transaction is successful, we can send your money by bank transfer, direct
               deposit, or other available methods.
             </p>
           </div>
         </div>
         <div>
-          <img
-            src="https://tse1.mm.bing.net/th?id=OIP.gSXio3jtjyxqPpyh7XnPewHaE7&pid=Api&P=0&w=243&h=163"
-            alt="Lexus"
-          />
+          <div className="flex justify-center">
+            <img src="https://i.imgur.com/GuPiTdf.png" alt="Human sitting" />
+          </div>
           <div>
-            <h3>Sign up for Free</h3>
-            <p>
+            <h3 className="text-center text-xl font-semibold pt-12 pb-2">Upload Car</h3>
+            <p className="text-center pl-10 pr-10">
               Once a transaction is successful, we can send your money by bank transfer, direct
               deposit, or other available methods.
             </p>
           </div>
         </div>
         <div>
-          <img
-            src="https://tse1.mm.bing.net/th?id=OIP.gSXio3jtjyxqPpyh7XnPewHaE7&pid=Api&P=0&w=243&h=163"
-            alt="Lexus"
-          />
+          <div className="flex justify-center">
+            <img src="https://i.imgur.com/qUvKjJj.png" alt="Human sitting" />
+          </div>
           <div>
-            <h3>Sign up for Free</h3>
-            <p>
+            <h3 className="text-center text-xl font-semibold pt-12 pb-2">Get offers from Buyers</h3>
+            <p className="text-center pl-10 pr-10">
               Once a transaction is successful, we can send your money by bank transfer, direct
               deposit, or other available methods.
             </p>

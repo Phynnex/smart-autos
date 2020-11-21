@@ -21,12 +21,14 @@ const Banner = () => {
   const classes = useStyles();
   return (
     <>
-      <div className="w-56 pt-24 pl-16 text-white text-center">
-        <h1 className="text-3xl font-bold w-56">List your car on Smart Autos</h1>
-        <p className="text-x1 w-56 pt-4">
-          Join a vibrant community of car dealers. No matter the price level or type of car, Smart
-          Auto will bring you interested buyers.
-        </p>
+      <div className="pt-10 pl-16 text-white">
+        <div className="w-64">
+          <h1 className="text-2xl font-bold text-center w-64">List your car on Smart Autos</h1>
+          <p className="text-center w-64">
+            Join a vibrant community of car dealers. No matter the price level or type of car, Smart
+            Auto will bring you interested buyers.
+          </p>
+        </div>
         <Button variant="contained" className={classes.button}>
           Get Started
         </Button>
