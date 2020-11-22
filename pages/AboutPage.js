@@ -21,7 +21,7 @@ const AboutPage = () => {
           <Appbar />
           <Banner />
         </section>
-        <section className="pl-16 pr-16">
+        <section className="pl-20 pr-20">
           <ChooseSmartAutos />
           <ListingProcess />
         </section>

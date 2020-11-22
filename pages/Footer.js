@@ -1,12 +1,12 @@
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import TwitterIcon from '@material-ui/icons/Twitter';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 const Footer = () => {
   return (
     <>
       <section className="bg-gray-500 rounded-lg">
-        <section className="grid grid-cols-4 pr-16 pl-16 pt-6 pb-10">
+        <section className="grid grid-cols-4 pl-20 pt-6 pb-10">
           <div>
             <h1 className="text-xl font-extrabold">ABOUT</h1>
             <ul className="pt-4 text-base">

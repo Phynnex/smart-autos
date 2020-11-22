@@ -2,7 +2,7 @@ const ListingProcess = () => {
   return (
     <>
       <div>
-        <h1 className="flex justify-center text-3xl font-extrabold pt-16">How Listing Works</h1>
+        <h1 className="flex justify-center text-3xl font-extrabold pt-16 pb-4">How Listing Works</h1>
         <p className="flex justify-center text-lg">
           Become a dealer and start selling your cars with Smart Auto in just 3 simple steps.
         </p>

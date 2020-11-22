@@ -8,7 +8,7 @@ const PopularCarBrands = () => {
     <>
       <h1 className="text-4xl font-bold flex justify-center mt-10">Popular Car Brands</h1>
       <p className="flex justify-center ">Pick a car from the most popular brands</p>
-      <section className="mt-10 grid grid-cols-5 gap-8 pl-10 pr-10">
+      <section className="mt-10 grid grid-cols-5 gap-8 pl-20 pr-20">
         {BrandList.map(({ img, brand, number }) => (
           <PopularBrand img={img} brand={brand} number={number} />
         ))}

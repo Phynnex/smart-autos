@@ -4,8 +4,8 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 const BestDeals = () => {
   return (
     <>
-      <h1 className="font-bold text-lg mt-10 pl-10 mb-4">Best Deals</h1>
-      <section className="grid grid-cols-4 gap-4 ml-6 pl-4 pr-10 justify-center">
+      <h1 className="font-bold text-lg mt-10 ml-16 mb-4">Best Deals</h1>
+      <section className="grid grid-cols-4 gap-4 ml-6 pl-4 pl-12 pr-20 justify-center">
         <div className="bg-white rounded-lg overflow-hidden w-auto h-full ">
           <img
             className="rounded-b-lg w-auto h-64"
